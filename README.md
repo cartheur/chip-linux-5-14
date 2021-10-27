@@ -18,7 +18,7 @@ the problems which may result by upgrading your kernel.
 
 ============
 
-Linux kernel release 5.14.15 <http://kernel.org/>
+Linux kernel release 5.14.15 - Found at: <http://kernel.org/>
 
 These are the release notes for Linux version 5.  Read them carefully,
 as they tell you what this is all about, explain how to install the
@@ -45,6 +45,9 @@ ON WHAT HARDWARE DOES IT RUN?
   UltraSPARC, Motorola 68000, PowerPC, PowerPC64, ARM, Hitachi SuperH, Cell,
   IBM S/390, MIPS, HP PA-RISC, Intel IA-64, DEC VAX, AMD x86-64, AXIS CRIS,
   Xtensa, Tilera TILE, AVR32 and Renesas M32R architectures.
+
+  This repository is tailored to build kernels for the defunct C.H.I.P. SoC computer
+  that have been limited to linux-4.4.13.
 
   Linux is easily portable to most general-purpose 32- or 64-bit architectures
   as long as they have a paged memory management unit (PMMU) and a port of the
@@ -83,8 +86,6 @@ INSTALLING the kernel source:
    unpack it:
 
      xz -cd linux-5.14.15.tar.xz | tar xvf -
-
-   Replace "X" with the version number of the latest kernel.
 
    Do NOT use the /usr/src/linux area! This area has a (usually
    incomplete) set of kernel headers that are used by the library header
@@ -173,6 +174,8 @@ CONFIGURING the kernel:
 
  - Alternative configuration commands are:
 
+ ```
+
      "make config"      Plain text interface.
 
      "make menuconfig"  Text based color menus, radiolists & dialogs.
@@ -239,6 +242,7 @@ CONFIGURING the kernel:
 
      "make localyesconfig" Similar to localmodconfig, except it will convert
                            all module options to built in (=y) options.
+```
 
    You can find more information on using the Linux kernel config tools
    in Documentation/kbuild/kconfig.txt.
