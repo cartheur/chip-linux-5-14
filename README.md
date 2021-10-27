@@ -18,7 +18,7 @@ the problems which may result by upgrading your kernel.
 
 ============
 
-        Linux kernel release 5.14.15 <http://kernel.org/>
+Linux kernel release 5.14.15 <http://kernel.org/>
 
 These are the release notes for Linux version 5.  Read them carefully,
 as they tell you what this is all about, explain how to install the
