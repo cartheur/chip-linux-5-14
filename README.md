@@ -18,6 +18,12 @@ the problems which may result by upgrading your kernel.
 
 ============
 
+## Debian 11
+
+[Here](https://idroot.us/install-linux-kernel-5-15-debian-11/)
+
+============
+
 Linux kernel release 5.14.15 - Found at: <http://kernel.org/>
 
 These are the release notes for Linux version 5.  Read them carefully,
